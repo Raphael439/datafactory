@@ -1,0 +1,17 @@
+{
+	"name": "current",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqldb_sales",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYC_Payroll_Data"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
